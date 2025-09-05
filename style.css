@@ -97,7 +97,6 @@ ul li {
     padding: 8px 0;
     border-bottom: 1px solid #40444b;
     color: #b9bbbe;
-    text-decoration: line-through; /* Strikethrough for bad examples */
 }
 
 ul li:last-child {
@@ -108,6 +107,39 @@ ul li:last-child {
     text-align: center;
     margin-top: 30px;
     font-size: 1.1em;
+}
+
+.discord-links {
+    margin-top: 30px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.discord-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #7289da;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.discord-button:hover {
+    background-color: #677bc4;
+    text-decoration: none;
+}
+
+.discord-button.join {
+    background-color: #43b581; /* Discord green */
+}
+
+.discord-button.join:hover {
+    background-color: #3aa072;
 }
 
 /* Mobile responsiveness */
@@ -127,5 +159,8 @@ ul li:last-child {
     p {
         font-size: 1em;
     }
+    .discord-links {
+        justify-content: center;
+        text-align: center;
+    }
 }
-
