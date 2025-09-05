@@ -2,20 +2,21 @@ body {
     background-color: #36393f; /* Discord-like dark background */
     color: #dcddde; /* Light text color */
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .container {
     max-width: 800px;
     width: 100%;
     background-color: #2f3136; /* Darker container background */
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 14px rgba(0,0,0,0.2);
     box-sizing: border-box;
@@ -25,22 +26,22 @@ h1 {
     color: #ffffff;
     text-align: center;
     margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 2em;
+    margin-bottom: 15px;
+    font-size: 1.6em;
 }
 
 h2 {
     color: #ffffff;
-    border-bottom: 2px solid #40444b;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 1.5em;
+    border-bottom: 1px solid #40444b;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
 }
 
 p {
-    margin-bottom: 15px;
-    font-size: 1.1em;
+    margin-bottom: 10px;
+    font-size: 0.95em;
 }
 
 a {
@@ -57,10 +58,10 @@ strong {
 }
 
 .example {
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 10px;
+    padding: 10px 15px;
     border-radius: 5px;
-    border-left: 5px solid;
+    border-left: 4px solid;
 }
 
 .example.good {
@@ -76,8 +77,8 @@ strong {
 .example h2 {
     margin-top: 0;
     border-bottom: none;
-    padding-bottom: 0;
-    font-size: 1.25em;
+    padding-bottom: 5px;
+    font-size: 1.1em;
 }
 
 blockquote {
@@ -85,6 +86,7 @@ blockquote {
     padding: 0;
     font-style: italic;
     color: #b9bbbe;
+    font-size: 0.9em;
 }
 
 ul {
@@ -94,9 +96,10 @@ ul {
 }
 
 ul li {
-    padding: 8px 0;
+    padding: 4px 0;
     border-bottom: 1px solid #40444b;
     color: #b9bbbe;
+    font-size: 0.9em;
 }
 
 ul li:last-child {
@@ -105,28 +108,29 @@ ul li:last-child {
 
 .footer-text {
     text-align: center;
-    margin-top: 30px;
-    font-size: 1.1em;
+    margin-top: 15px;
+    font-size: 0.95em;
 }
 
 .discord-links {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: right;
     display: flex;
     justify-content: flex-end;
-    gap: 15px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
 .discord-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border-radius: 5px;
     background-color: #7289da;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.2s ease-in-out;
+    font-size: 0.9em;
 }
 
 .discord-button:hover {
@@ -148,19 +152,24 @@ ul li:last-child {
         padding: 10px;
     }
     .container {
-        padding: 20px;
+        padding: 15px;
     }
     h1 {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     h2 {
-        font-size: 1.25em;
+        font-size: 1.1em;
     }
     p {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .discord-links {
         justify-content: center;
         text-align: center;
+        gap: 8px;
+    }
+    .discord-button {
+        padding: 6px 12px;
+        font-size: 0.85em;
     }
 }
