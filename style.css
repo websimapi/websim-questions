@@ -69,6 +69,11 @@ strong {
     border-color: #4fb17e; /* Green for good examples */
 }
 
+.example.good li {
+    font-style: italic;
+    color: #b9bbbe;
+}
+
 .example.bad {
     background-color: rgba(240, 71, 71, 0.1);
     border-color: #f04747; /* Red for bad examples */
@@ -87,6 +92,14 @@ blockquote {
     font-style: italic;
     color: #b9bbbe;
     font-size: 0.9em;
+}
+
+code {
+    background-color: #202225;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 0.85em;
 }
 
 ul {
